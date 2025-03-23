@@ -74,8 +74,8 @@ To deploy this application on a cloud platform like Heroku:
 - 🌍 **Multilingual Support**: Add support for multiple languages.
 
 ## Screenshots
-<img scr="/scrnst/scn02.png" width="600">
-<img scr="/scrnst/scn05.png" width="600">
+<img scr="scrnst/scn02.png" width="600">
+<img scr="scrnst/scn05.png" width="600">
 
 ## License
 This project is open-source and available under the **MIT License**.
