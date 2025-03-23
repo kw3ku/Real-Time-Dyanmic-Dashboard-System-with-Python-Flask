@@ -3,14 +3,6 @@
 ## Overview
 This project is a **Real-Time Dynamic Post Dashboard System** built using **Python Flask**. It enables users to create, edit, and delete posts while providing real-time updates to the dashboard. The system is designed to be interactive and responsive, making it ideal for applications that require live content updates.
 
-## Screenshots
-
-
-<img scr="scrnst/scn01.png" width="600">
-<img scr="scrnst/scn02.png" width="600">
-<img scr="scrnst/scn03.png" width="600">
-<img scr="scrnst/scn04.png" width="600">
-<img scr="scrnst/scn05.png" width="600">
 
 ## Features
 - 🔄 **Real-time Post Updates**: Instantly reflects changes to posts without requiring a page refresh.
@@ -83,9 +75,9 @@ To deploy this application on a cloud platform like Heroku:
 - 🌍 **Multilingual Support**: Add support for multiple languages.
 
 ## Screenshots
-<img scr="scrnst/scn01.png" width="600">
-<img scr="scrnst/scn02.png" width="600">
-<img scr="scrnst/scn05.png" width="600">
+<img src="scrnst/scn01.png" width="600">
+<img src="scrnst/scn02.png" width="600">
+<img src="scrnst/scn05.png" width="600">
 
 ## License
 This project is open-source and available under the **MIT License**.
