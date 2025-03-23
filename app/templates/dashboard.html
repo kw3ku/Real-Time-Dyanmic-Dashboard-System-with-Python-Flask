@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="{{ url_for('main.dashboard') }}" class="list-group-item list-group-item-action active">Overview</a>
+                <a href="{{ url_for('main.profile') }}" class="list-group-item list-group-item-action">Profile</a>
+                <a href="{{ url_for('main.posts') }}" class="list-group-item list-group-item-action">Posts</a>
+                <a href="{{ url_for('main.settings') }}" class="list-group-item list-group-item-action">Settings</a>
+                <a href="{{ url_for('main.logout') }}" class="list-group-item list-group-item-action">Logout</a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-9">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Welcome, {{ current_user.user_name }}!</h1>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Total Posts</h5>
+                                    <p class="card-text">{{ current_user.posts|length }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Followers</h5>
+                                    <p class="card-text">1,234</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Following</h5>
+                                    <p class="card-text">567</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h2>Recent Activity</h2>
+                        <ul class="list-group">
+                            <ul class="list-group">
+                                {% for post in recent_posts %}
+                                    <li class="list-group-item">You created a new post: "{{ post.post_title }}"</li>
+                                {% endfor %}
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
