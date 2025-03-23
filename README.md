@@ -74,7 +74,8 @@ To deploy this application on a cloud platform like Heroku:
 - 🌍 **Multilingual Support**: Add support for multiple languages.
 
 ## Screenshots
-*(Add images of your application UI here for better presentation in your portfolio.)*
+<img scr="/scrnst/scn02.png" width="600">
+<img scr="/scrnst/scn05.png" width="600">
 
 ## License
 This project is open-source and available under the **MIT License**.
@@ -82,7 +83,7 @@ This project is open-source and available under the **MIT License**.
 ---
 ### 🔗 Connect with Me
 If you liked this project or want to collaborate, feel free to reach out:
-- **Portfolio:** [Your Website](#)
-- **LinkedIn:** [Your LinkedIn](#)
-- **GitHub:** [Your GitHub](#)
+- **Portfolio:** [https://fosterdompreh.com](#)
+- **LinkedIn:** [https://www.linkedin.com/in/foster-dompreh/](#)
+- **GitHub:** [https://github.com/kw3ku](#)
 
